@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Feliz Natal, um pequeno projetinho de um site de natal, seja bem vindo">
+    <title>Feliz Natal</title>
+
+    <!--font awesome cnd link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+
+        <a href="#" class="logo"><span>Feliz</span>Natal</a>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+    
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#about">special</a>
+            <a href="#shop">Loja</a>
+            <a href="#gallery">Galeria</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    
+    
+    </header>
+    <!-- Inicio da area home -->
+
+    <section class="home" id="home">
+
+        
+        <div class="slide active" style="background: url(./imagens/christmas-gc1195a395_1920.jpg) no-repeat; background-size: cover; background-position: center;">
+            <div class="content">
+                <span>Ho Ho Ho</span>
+                <h3>Feliz Natal</h3>
+                <a href="#" class="btn">Vamos Lá</a>
+            </div>
+        </div>
+
+        <div class="slide" style="background: url(./imagens//christmas-g83ebd45ad_1920.jpg) no-repeat; background-size: cover; background-position: center;">
+            <div class="content">
+                <span>Aproveite as ofertas de natal em nosso loja</span>
+                <h3>Aproveite agora!</h3>
+                <a href="#" class="btn">Vamos Lá</a>
+            </div>
+        </div>
+
+        <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+        <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+
+            
+    </section>
+    
+    <!-- Fim da area home -->
+
+
+
+    <!-- Inicio da area de taz -->
+    
+    <section class="taz">
+            <div class="imagens">
+                <img src="./imagens/taz1.png" alt="">
+                <img src="./imagens/taz2.png" alt="">
+                <img src="./imagens/taz3.png" alt="">
+                <img src="./imagens/taz4.png" alt="">
+            </div>
+    </section>
+
+
+    <!-- Fim da area de taz -->
+
+    <!-- Inicio da area about -->
+    <section class="about" id="about">
+
+        <div class="image">
+            <img src="./imagens/about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <h3>Cultura do Natal</h3>
+                <p>Muitos costumes populares associados ao Natal desenvolveram-se de forma independente da comemoração do nascimento de Jesus, com certos elementos de origens em festivais pré-cristãos que eram celebradas em torno do solstício de inverno pelas populações pagãs que foram mais tarde convertidas ao cristianismo.</p>
+                <a href="./paginas/sobre.html" class="btn">Saiba mais</a>
+            </div>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-tree"></i>
+                    <p>christmas tree</p>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-cookie"></i>
+                    <p>christmas cookie</p>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-gifts"></i>
+                    <p>christmas gifts</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Fim da area about -->
+
+    <!-- inicio da seção do shop -->
+
+    <section class="shop" id="shop">
+
+        <h2 class="heading"> <span>Nossa</span> Loja</h2>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="./imagens/product-1.png" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-eye"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Decoração de natal</h3>
+                    <div class="preco"> $249.99 <span>$289.99</span></div>
+                    <a href="" class="btn">Adicione ao carrinho</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="./imagens/product-2.png" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-eye"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Decoração de natal</h3>
+                    <div class="preco"> $249.99 <span>$289.99</span></div>
+                    <a href="" class="btn">Adicione ao carrinho</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="./imagens/product-3.png" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-eye"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Decoração de natal</h3>
+                    <div class="preco"> $249.99 <span>$289.99</span></div>
+                    <a href="" class="btn">Adicione ao carrinho</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="./imagens/product-4.png" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-eye"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Decoração de natal</h3>
+                    <div class="preco"> $249.99 <span>$289.99</span></div>
+                    <a href="" class="btn">Adicione ao carrinho</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="./imagens/product-5.png" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-eye"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Decoração de natal</h3>
+                    <div class="preco"> $249.99 <span>$289.99</span></div>
+                    <a href="" class="btn">Adicione ao carrinho</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="./imagens/product-6.png" alt="">
+                    <div class="icons">
+                        <a href="" class="fas fa-eye"></a>
+                        <a href="" class="fas fa-heart"></a>
+                        <a href="" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Decoração de natal</h3>
+                    <div class="preco"> $249.99 <span>$289.99</span></div>
+                    <a href="" class="btn">Adicione ao carrinho</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Fim da seção do shop -->
+
+    <!-- Inicio da area menssagem -->
+    <section class="menssagem">
+
+        <div class="content">
+            <span>Oferta Especial</span>
+            <h3>tudo por 50%</h3>
+            <p>Aproveite ja a nossa oferta de tempo limitado</p>
+            <a href="#shop" class="btn">Corra</a>
+        </div>
+
+
+    </section>
+
+    <!-- Fim da area menssagem -->
+
+    <!-- Inicio da area galeria -->
+    <section class="gallery" id="gallery">
+
+        <h1> <span>Nossa </span>  Galeria</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./imagens/gallery-img-1.jpg" alt="">
+                <div class="content">
+                    <h3>Presentes de natal</h3>
+                    <p>Os melhores presentes</p>
+                    <a href="#" class="btn">Aproveite já!</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./imagens/gallery-img-2.jpg" alt="">
+                <div class="content">
+                    <h3>Roupas de natal</h3>
+                    <p>As melhores roupas para seu natal</p>
+                    <a href="#" class="btn">Aproveite já!</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./imagens/gallery-img-3.jpg" alt="">
+                <div class="content">
+                    <h3>Enfeites de natal</h3>
+                    <p>Os melhores Enfeites para seu natal</p>
+                    <a href="#" class="btn">Aproveite já!</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./imagens/gallery-img-4.jpg" alt="">
+                <div class="content">
+                    <h3>Doces de natal</h3>
+                    <p>Os melhores Doces para adoçar seu natal</p>
+                    <a href="#" class="btn">Aproveite já!</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./imagens/gallery-img-5.jpg" alt="">
+                <div class="content">
+                    <h3>Leds de natal</h3>
+                    <p>Os melhores leds para enfeitar a sua casa</p>
+                    <a href="#" class="btn">Aproveite já!</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./imagens/gallery-img-6.jpg" alt="">
+                <div class="content">
+                    <h3>Decoração de natal</h3>
+                    <p>Os melhores Decoração para sua casa</p>
+                    <a href="#" class="btn">Aproveite já!</a>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+    <!-- Fim da area galeria -->
+
+    <!-- Inicio da area de contato -->
+    <section class="contato" id="contato">
+        <form action="https://formsubmit.co/mateus.batista12f@gmail.com" method="POST">
+            <h3>Entre em Contato</h3>
+            <input type="hidden" name="_next" value="https://mateus-batista12.github.io/marychristmas/paginas/sucesso.html">
+            <input type="text" name="nome" placeholder=" Nome Inteiro" class="box">
+            <input type="email" name="email" placeholder=" Email" class="box">
+            <input type="text" name="assunto" placeholder=" Assunto" class="box">
+            <textarea name="massage" placeholder="Mensagem" class="box" id="" cols="20" rows="4"></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+    <!-- Fim da area de contato -->
+
+    <!-- Inicio da area do rodape -->
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>Links Rapidos</h3>
+                <a class="link" href="#home"> <i class="fas fa-angle-right"></i> Inicio</a>
+                <a class="link" href="#about"> <i class="fas fa-angle-right"></i> special</a>
+                <a class="link" href="#shop"> <i class="fas fa-angle-right"></i> Loja</a>
+                <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> Galeria</a>
+                <a class="link" href="#contato"> <i class="fas fa-angle-right"></i> Contato</a>
+            </div>
+
+            <div class="box">
+                <h3>Links Extras</h3>
+                <a class="link" href="#"> <i class="fas fa-angle-right"></i> my favorit</a>
+                <a class="link" href="#"> <i class="fas fa-angle-right"></i> my orde</a>
+                <a class="link" href="#"> <i class="fas fa-angle-right"></i> my whishlist</a>
+                <a class="link" href="#"> <i class="fas fa-angle-right"></i> private polish</a>
+                <a class="link" href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>Informaçaõ de contato</h3>
+                <a class="link" href=""> <i class="fas fa-phone"></i> +123-456</a>
+                <a class="link" href=""> <i class="fas fa-envelope"></i> mateus.batista12f@gmail.com</a>
+                <a class="link" href=""> <i class="fas fa-map"></i> minas gerais, Brasil</a>
+                <div class="share">
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Boletim de noticias</h3>
+                <p>Escreva-se para receber os novos updates</p>
+                <form action="">
+                    <input type="email"  placeholder="Digite seu email" id="" rows="1" class="email">
+                    <a href="" class="btn" >Inscreva-se</a>
+                </form>
+            </div>
+
+
+        </div>
+
+        <div class="credit">Criado por <span>Mateus Batista</span> | Todos os direitos reservados </div>
+
+    </section>
+
+    <!-- Fim da area do rodape -->
+    
+<script src="./js/script.js"></script>
+</body>
+</html>
